@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="gameprojectproperties"
+	OutputDirectory="$(SolutionDir)$(ConfigurationName)\game"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)&quot;;&quot;$(SolutionDir)..\target\mswin\include&quot;"
+		UsePrecompiledHeader="1"
+		PrecompiledHeaderThrough="game/shared/gamepch.h"
+	/>
+</VisualStudioPropertySheet>
